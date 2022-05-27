@@ -1,0 +1,9 @@
+-
+  name: Home
+  path: index.markdown
+-
+  name: About
+  path: about.markdown
+-
+  name: Tools
+  path: tools/index.markdown

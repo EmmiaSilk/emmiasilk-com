@@ -1,0 +1,80 @@
+---
+layout: page
+title: Sphere Roller
+---
+
+<p>
+  Generate random sphere combinations for a new
+  <em>Spheres and Spirits</em> character.
+</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="{{base.url | prepend: site.url}}/assets/script/spheres-roller.js"></script>
+
+<!-- Contents -->
+<div class="container tool-spheres-roller">
+  <!-- Generate all spheres button -->
+  <div class="row text-center mb-3">
+    <div class="col">
+      <button type="button" name="generate-all" class="btn btn-primary btn-lg js-spheres-generate_all">
+        Randomize Spheres
+      </button>
+    </div>
+  </div>
+
+  <!-- Buttons -->
+  <div class="row text-center">
+    <div class="col">
+      <button type="button" class="btn btn-secondary js-spheres-generate_symbol">
+        Symbol
+      </button>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-secondary js-spheres-generate_source">
+        Source
+      </button>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-secondary js-spheres-generate_spirit">
+        Spirit
+      </button>
+    </div>
+  </div>
+
+  <!-- Results -->
+  <div class="row text-center">
+    <div class="col">
+      <p class="js-spheres-symbol_result">(Result)</p>
+    </div>
+    <div class="col">
+      <p class="js-spheres-source_result">(Result)</p>
+    </div>
+    <div class="col">
+      <p class="js-spheres-spirit_result">(Result)</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="col">
+      <h2 class="text-center">Symbols</h2>
+      <ol class="js-spheres-symbols_list"></ol>
+    </div>
+    <div class="col">
+      <h2 class="text-center">Sources</h2>
+      <ol class="js-spheres-sources_list"></ol>
+    </div>
+    <div class="col">
+      <h2 class="text-center">Spirits</h2>
+      <ol class="js-spheres-spirits_list"></ol>
+    </div>
+  </div>
+
+  <hr>
+
+  <p class="text-center">
+    Spheres and Spirits &copy; 2021-2022 James Burnett
+  </p>
+
+</div>

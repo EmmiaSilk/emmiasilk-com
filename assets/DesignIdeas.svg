@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="200mm"
+   viewBox="0 0 210 200"
+   version="1.1"
+   id="svg879"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="DesignIdeas.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview881"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-page="true"
+     inkscape:snap-center="true"
+     inkscape:snap-object-midpoints="true"
+     height="200mm"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="282.66593"
+     inkscape:cy="122.50625"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs876">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14940">
+      <stop
+         style="stop-color:#181e23;stop-opacity:1"
+         offset="0"
+         id="stop14936" />
+      <stop
+         style="stop-color:#05121b;stop-opacity:0;"
+         offset="1"
+         id="stop14938" />
+    </linearGradient>
+    <rect
+       x="231.93102"
+       y="62.225397"
+       width="72.831998"
+       height="24.041631"
+       id="rect46969" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient42985">
+      <stop
+         style="stop-color:#6badcd;stop-opacity:1"
+         offset="0"
+         id="stop42981" />
+      <stop
+         style="stop-color:#5183a6;stop-opacity:0;"
+         offset="1"
+         id="stop42983" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="105.83334,19.511704"
+       end_point="105.83334,26.789062"
+       center_point="105.83334,23.150383"
+       id="path-effect20758"
+       is_visible="true"
+       lpeversion="1.1"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="true"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient42985"
+       id="linearGradient42987"
+       x1="0"
+       y1="0"
+       x2="-3.8146973e-06"
+       y2="20"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(1,1.25)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14940"
+       id="linearGradient14942"
+       x1="1.4210855e-14"
+       y1="130.4875"
+       x2="1.4210855e-14"
+       y2="105.4875"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#6badcd;fill-opacity:1;stroke:#000000;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect44091"
+       width="168.53958"
+       height="8.4666662"
+       x="20.730213"
+       y="17.792934"
+       rx="0.49999899"
+       ry="4.0348692" />
+    <rect
+       style="fill:#e6e6e6;stroke:none;stroke-width:2.0043;paint-order:markers stroke fill"
+       id="rect964-1"
+       width="210"
+       height="270.78372"
+       x="-1.9073486e-06"
+       y="-70.783714"
+       rx="0.49999899"
+       ry="4.0348806" />
+    <rect
+       style="fill:#1c2834;fill-opacity:1;stroke:none;stroke-width:1.39135;paint-order:markers stroke fill"
+       id="rect964-9"
+       width="210"
+       height="130.4875"
+       x="1.4210855e-14"
+       y="7.1054274e-15"
+       rx="0.49999899"
+       ry="1.9443616" />
+    <rect
+       style="fill:url(#linearGradient42987);fill-opacity:1;stroke:none;stroke-width:0.609005;paint-order:markers stroke fill"
+       id="rect964"
+       width="210"
+       height="25"
+       x="-3.8146973e-06"
+       y="0"
+       rx="0.49999899"
+       ry="0.37251875" />
+    <rect
+       style="fill:url(#linearGradient14942);fill-opacity:1;stroke:none;stroke-width:0.609005;paint-order:markers stroke fill"
+       id="rect964-6"
+       width="210"
+       height="25"
+       x="1.4210855e-14"
+       y="105.4875"
+       rx="0.49999899"
+       ry="0.37251875" />
+    <text
+       xml:space="preserve"
+       style="font-size:22.5px;line-height:1.25;font-family:'Dream Orphans';-inkscape-font-specification:'Dream Orphans, Normal';text-align:center;word-spacing:7.91014px;text-anchor:middle;fill:#9f86c0;fill-opacity:1;stroke:#100b43;stroke-width:1.49484;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="104.59672"
+       y="18.810396"
+       id="text2184"
+       transform="scale(1.0035317,0.99648071)"><tspan
+         sodipodi:role="line"
+         id="tspan2182"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:SelznickNormal;-inkscape-font-specification:SelznickNormal;fill:#9f86c0;fill-opacity:1;stroke:#100b43;stroke-width:1.49484;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="104.59672"
+         y="18.810396">Emmia Silk</tspan></text>
+    <path
+       style="fill:#f878bf;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 105.83334,23.110347 c 0,0 -0.007,-2.728029 -1.6603,-2.661883 -1.65364,0.06615 -2.00953,1.695678 -1.34658,2.562665 0.81373,1.064174 2.90312,4.334106 3.00688,4.49662 0.10376,-0.162514 2.19315,-3.432446 3.00688,-4.49662 0.66295,-0.866987 0.30706,-2.496515 -1.34658,-2.562665 -1.6533,-0.06615 -1.6603,2.661883 -1.6603,2.661883 z"
+       id="path20657"
+       inkscape:path-effect="#path-effect20758"
+       inkscape:original-d="m 105.83334,23.110347 c 0,0 -0.007,-2.728029 -1.6603,-2.661883 -1.65364,0.06615 -2.00953,1.695678 -1.34658,2.562665 0.83455,1.091406 3.01089,4.502902 3.01089,4.502902"
+       sodipodi:nodetypes="cssc"
+       transform="matrix(2.0001458,0,0,1.9860922,-97.798052,-34.522787)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text46967"
+       style="line-height:1.25;font-family:'Dream Orphans';font-size:24px;-inkscape-font-specification:'Dream Orphans, Normal';text-align:center;white-space:pre;shape-inside:url(#rect46969)" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Dream Orphans';-inkscape-font-specification:'Dream Orphans, Normal';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="62.86179"
+       y="15.154182"
+       id="text52363"><tspan
+         sodipodi:role="line"
+         id="tspan52361"
+         style="stroke-width:0.264583"
+         x="62.86179"
+         y="15.154182" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:'Dream Orphans';-inkscape-font-specification:'Dream Orphans, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#f9f9f9;stroke-width:0.264583"
+       x="104.98095"
+       y="65.954338"
+       id="text57877"><tspan
+         sodipodi:role="line"
+         id="tspan57875"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Lobster;-inkscape-font-specification:Lobster;fill:#f9f9f9;stroke-width:0.264583"
+         x="104.98095"
+         y="65.954338">About</tspan></text>
+  </g>
+</svg>
