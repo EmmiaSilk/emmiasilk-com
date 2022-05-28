@@ -1,69 +1,38 @@
+---
+# See data file `/_data/spheres.yml` for more details.
+---
 {
   "symbols": [
-    "Axe",
-    "Bow",
-    "Chain",
-    "Chalice",
-    "Dagger",
-    "Fist",
-    "Hammer",
-    "Musical Instrument",
-    "Quill",
-    "Scale",
-    "Scepter",
-    "Scroll",
-    "Scythe",
-    "Shield",
-    "Spear",
-    "Spectacles",
-    "Staff",
-    "Sword",
-    "Tome",
-    "Whip"
+    {% for item in site.data.spheres.symbols -%}
+    {
+      "name": "{{ item.name }}",
+      {%- if item.extra_table %}
+      "extra_table": "{{item.extra_table}}",
+      {%- endif %}
+      "id": "{{ item.id }}"
+    }{% unless forloop.last%},{% endunless %}
+    {% endfor %}
   ],
   "sources": [
-    "Fire",
-    "Water",
-    "Air",
-    "Earth",
-    "Wood",
-    "Metal",
-    "Heavens",
-    "Void",
-    "Poison",
-    "Ice",
-    "Lightning",
-    "Decay",
-    "Blood",
-    "Honor",
-    "Music",
-    "Bone",
-    "Dream",
-    "Gravity"
+    {% for item in site.data.spheres.sources -%}
+    {
+      "name": "{{ item.name }}",
+      {%- if item.extra_table %}
+      "extra_table": "{{item.extra_table}}",
+      {%- endif %}
+      "id": "{{ item.id }}"
+    }{% unless forloop.last%},{% endunless %}
+    {% endfor %}
   ],
   "spirits": [
-    "Dwarf",
-    "Elf",
-    "Orc",
-    "Goblin",
-    "Giant",
-    "Hag",
-    "Unicorn",
-    "Griffin",
-    "Dragon",
-    "Minitaur",
-    "Sphinx",
-    "Construct",
-    "Wraith",
-    "Medusa",
-    "Living Source (roll table)",
-    "Leviathan",
-    "Behemoth",
-    "Fairy",
-    "Siren",
-    "Lycanthrope",
-    "Boogeyman",
-    "Monstrous Bird",
-    "Genie"
+    {% for item in site.data.spheres.spirits -%}
+    {
+      "name": "{{ item.name }}",
+      {%- if item.extra_table %}
+      "extra_table": "{{item.extra_table}}",
+      {%- endif %}
+      "id": "{{ item.id }}"
+    }{% unless forloop.last%},{% endunless %}
+    {% endfor %}
   ]
 }

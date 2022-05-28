@@ -1,0 +1,189 @@
+# Format:
+#   id: string - Back-end sphere identifier.
+#   name: string - User-readable name for the sphere
+#   extra_table: string [optional] - Sphere table to roll on for connected spheres
+
+symbols:
+  -
+    id: axe
+    name: Axe
+  -
+    id: bow
+    name: Bow
+  -
+    id: chain
+    name: Chain
+  -
+    id: chalice
+    name: chalice
+  -
+    id: dagger
+    name: Dagger
+  -
+    id: fist
+    name: Fist
+  -
+    id: hammer
+    name: Hammer
+  -
+    id: musical_instrument
+    name: Musical Instrument
+  -
+    id: quill
+    name: Quill
+  -
+    id: scale
+    name: Scale
+  -
+    id: scepter
+    name: Scepter
+  -
+    id: scroll
+    name: Scroll
+  -
+    id: scythe
+    name: Scythe
+  -
+    id: shield
+    name: Shield
+  -
+    id: spectacles
+    name: Spectacles
+  -
+    id: staff
+    name: Staff
+  -
+    id: sword
+    name: Sword
+  -
+    id: tome
+    name: Tome
+  -
+    id: whip
+    name: Whip
+sources:
+  -
+    id: fire
+    name: Fire
+  -
+    id: water
+    name: Water
+  -
+    id: air
+    name: Air
+  -
+    id: earth
+    name: Earth
+  -
+    id: wood
+    name: Wood
+  -
+    id: metal
+    name: Metal
+  -
+    id: heavens
+    name: Heavens
+  -
+    id: void
+    name: Void
+  -
+    id: poison
+    name: Poison
+  -
+    id: ice
+    name: Ice
+  -
+    id: lightning
+    name: Lightning
+  -
+    id: decay
+    name: Decay
+  -
+    id: blood
+    name: Blood
+  -
+    id: honor
+    name: Honor
+  -
+    id: music
+    name: Music
+  -
+    id: bone
+    name: Bone
+  -
+    id: dream
+    name: Dream
+  -
+    id: gravity
+    name: Gravity
+spirits:
+  -
+    id: dwarf
+    name: Dwarf
+  -
+    id: elf
+    name: Elf
+  -
+    id: orc
+    name: Orc
+  -
+    id: goblin
+    name: Goblin
+  -
+    id: giant
+    name: Giant
+  -
+    id: hag
+    name: Hag
+  -
+    id: unicorn
+    name: Unicorn
+  -
+    id: griffin
+    name: Griffin
+  -
+    id: dragon
+    name: Dragon
+  -
+    id: minitaur
+    name: Minitaur
+  -
+    id: sphinx
+    name: Sphinx
+  -
+    id: construct
+    name: Construct
+  -
+    id: wraith
+    name: Wraith
+  -
+    id: medusa
+    name: Medusa
+  -
+    id: living_source
+    name: Living Source
+    extra_table: sources
+  -
+    id: Leviathan
+    name: Leviathan
+  -
+    id: Behemoth
+    name: Behemoth
+  -
+    id: Fairy
+    name: Fairy
+  -
+    id: Siren
+    name: Siren
+  -
+    id: Lycanthrope
+    name: Lycanthrope
+  -
+    id: Boogeyman
+    name: Boogeyman
+  -
+    id: monstrous_bird
+    name: Monstrous Bird
+  -
+    id: Genie
+    name: Genie

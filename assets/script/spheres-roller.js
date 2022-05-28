@@ -1,7 +1,7 @@
 spheresTable = {
-  symbols: [],
-  sources: [],
-  spirits: []
+  symbols: {},
+  sources: {},
+  spirits: {}
 };
 
 function spheres_generate_all() {
@@ -11,15 +11,30 @@ function spheres_generate_all() {
 }
 function spheres_generate_symbol() {
   var result = spheres_getRandomArrayMember(spheresTable.symbols);
-  $(".js-spheres-symbol_result").text(result);
+  var text = result.name;
+  if(result.extra_table) {
+    var result2 = spheres_getRandomArrayMember(spheresTable[result.extra_table]);
+    text = `${result.name} (${result2.name})`
+  }
+  $(".js-spheres-symbol_result").text(text);
 }
 function spheres_generate_source() {
   var result = spheres_getRandomArrayMember(spheresTable.sources);
-  $(".js-spheres-source_result").text(result);
+  var text = result.name;
+  if(result.extra_table) {
+    var result2 = spheres_getRandomArrayMember(spheresTable[result.extra_table]);
+    text = `${result.name} (${result2.name})`
+  }
+  $(".js-spheres-source_result").text(text);
 }
 function spheres_generate_spirit() {
   var result = spheres_getRandomArrayMember(spheresTable.spirits);
-  $(".js-spheres-spirit_result").text(result);
+  var text = result.name;
+  if(result.extra_table) {
+    var result2 = spheres_getRandomArrayMember(spheresTable[result.extra_table]);
+    text = `${result.name} (${result2.name})`
+  }
+  $(".js-spheres-spirit_result").text(text);
 }
 
 function spheres_ajax_recieved_lists(data, status) {
@@ -42,20 +57,23 @@ function refillSpheresList() {
   // Symbols list
   var symbols_ol = $(".js-spheres-symbols_list")
   symbols_ol.empty();
-  spheresTable.symbols.forEach((item, i) => {
-    symbols_ol.append("<li>" + item + "</li>");
+  Object.entries(spheresTable.symbols).forEach(entry => {
+    const [id, item] = entry;
+    symbols_ol.append("<li>" + item.name + "</li>");
   });
   // Sources
   var sources_ol = $(".js-spheres-sources_list");
   sources_ol.empty();
-  spheresTable.sources.forEach((item, i) => {
-    sources_ol.append("<li>" + item + "</li>");
+  Object.entries(spheresTable.sources).forEach(entry => {
+    const [id, item] = entry;
+    sources_ol.append("<li>" + item.name + "</li>");
   });
   // Spirits
   var spirits_ol = $(".js-spheres-spirits_list");
   spirits_ol.empty();
-  spheresTable.spirits.forEach((item, i) => {
-    spirits_ol.append("<li>" + item + "</li>");
+  Object.entries(spheresTable.spirits).forEach(entry => {
+    const [id, item] = entry;
+    spirits_ol.append("<li>" + item.name + "</li>");
   });
 }
 
