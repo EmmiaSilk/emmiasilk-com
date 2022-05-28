@@ -8,10 +8,12 @@ title: Sphere Roller
   <em>Spheres and Spirits</em> character.
 </p>
 
-{% assign buildtime = site.time | date: '%s%N' %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-{% assign appdir = "/tools/spheres-roller" %}
-<script src="{{base.url | prepend: site.url}}{{appdir}}/scripts/spheres-roller.js?{{buildtime}}"></script>
+
+{% assign buildtime = site.time | date: '%s%N' %}
+{% assign appdir = "/tools/spheres-roller" | prepend: base.url | prepend: site.url %}
+<data class="js-spheres-datapath" href="{{ "/assets/spheres.json" | prepend: appdir | relative_url}}?{{buildtime}}"></data>
+<script src="{{appdir}}/scripts/spheres-roller.js?{{buildtime}}"></script>
 
 <!-- Contents -->
 <div class="container tool-spheres-roller">

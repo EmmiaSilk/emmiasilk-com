@@ -81,10 +81,10 @@ function refillSpheresList() {
 $(document).ready(function() {
   console.log("Loading");
   // Retrieve data
-  var jsonPath = "/tools/spheres-roller/assets/spheres.json";
+  var datapath = $("data.js-spheres-datapath").attr('href');
   var buildTime = $("meta[property='js-buildtime']").attr('content');
   console.log(buildTime);
-  $.getJSON(`${jsonPath}?${buildTime}`, null, spheres_ajax_recieved_lists);
+  $.getJSON(datapath, null, spheres_ajax_recieved_lists);
 
   // Buttons
   $(".js-spheres-generate_all").on("click", spheres_generate_all);
