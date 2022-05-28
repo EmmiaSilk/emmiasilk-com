@@ -81,7 +81,7 @@ function refillSpheresList() {
 $(document).ready(function() {
   console.log("Loading");
   // Retrieve data
-  var jsonPath = "/assets/script/spheres.json"
+  var jsonPath = "/tools/spheres-roller/assets/spheres.json";
   var buildTime = $("meta[property='js-buildtime']").attr('content');
   console.log(buildTime);
   $.getJSON(`${jsonPath}?${buildTime}`, null, spheres_ajax_recieved_lists);

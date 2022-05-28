@@ -10,7 +10,8 @@ title: Sphere Roller
 
 {% assign buildtime = site.time | date: '%s%N' %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="{{base.url | prepend: site.url}}/assets/script/spheres-roller.js?{{buildtime}}"></script>
+{% assign appdir = "/tools/spheres-roller" %}
+<script src="{{base.url | prepend: site.url}}{{appdir}}/scripts/spheres-roller.js?{{buildtime}}"></script>
 
 <!-- Contents -->
 <div class="container tool-spheres-roller">
