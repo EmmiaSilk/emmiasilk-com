@@ -31,5 +31,9 @@ $on-laptop: 800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+:root {
+  --bs-link-color: #66bbff;
+}
+
 // Import partials
 @import "theme/layout";
