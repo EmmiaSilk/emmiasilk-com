@@ -1,0 +1,17 @@
+---
+layout: page
+title: Projects
+---
+
+<ul class="list-group-flush">
+  {% for project in site.projects %}
+  <li class="list-group-item">
+    <a href="{{project.url}}">
+      <h2 class="text-center">{{project.title}}</h2>
+      <img src="{{project.banner}}" class="mx-auto d-block">
+    </a>
+    <p>{{project.excerpt}}</p>
+    <p><a href="{{project.url}}"><em>Read More?</em></a></p>
+  </li>
+  {% endfor %}
+</ul>

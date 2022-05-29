@@ -2,8 +2,11 @@
   name: Home
   path: index.markdown
 -
-  name: About
-  path: about.markdown
+  name: Projects
+  path: projects.html
 -
   name: Tools
   path: tools/index.markdown
+-
+  name: About
+  path: about.markdown

@@ -14,6 +14,19 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Courgette", cursive;
   color: #eeddff;
 }
+h1, .h1 {
+  font-size: $base-font-size*2;
+  border-bottom: 1px dotted #eeddff;
+}
+h2, .h2 {
+  color: #eeddff;
+  font-size: $base-font-size*1.75;
+}
+
+h3, .h3 {
+  color: #eeddff;
+  font-size: $base-font-size*1.25;
+}
 
 .site-container {
   min-height: 100vh;
