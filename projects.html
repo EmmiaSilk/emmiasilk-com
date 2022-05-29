@@ -3,15 +3,19 @@ layout: page
 title: Projects
 ---
 
-<ul class="list-group-flush">
+<ul class="list_projects">
   {% for project in site.projects %}
-  <li class="list-group-item">
+  <li class="list_projects-entry">
     <a href="{{project.url}}">
-      <h2 class="text-center">{{project.title}}</h2>
-      <img src="{{project.banner}}" class="mx-auto d-block">
+      <h2 class="list_projects-header">{{project.title}}</h2>
+      <img class="list_projects-banner" src="{{project.banner}}">
     </a>
-    <p>{{project.excerpt}}</p>
-    <p><a href="{{project.url}}"><em>Read More?</em></a></p>
+    <p class="list_projects-excerpt">
+      {{project.excerpt}}
+    </p>
+    <p class="list_projects-link">
+      <a href="{{project.url}}"><em>Read More</em></a>
+    </p>
   </li>
   {% endfor %}
 </ul>

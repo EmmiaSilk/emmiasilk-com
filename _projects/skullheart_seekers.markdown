@@ -10,7 +10,7 @@ The system is heavily combat-focused, and built around the use of d10 dice.
 Attacks have both active offense and active defense, and the initiative system
 allows for flexible turn orders.
 
-![Skullheart Seekers logo]({{ page.banner }}){: class="mx-auto d-block"}
+![Skullheart Seekers logo]({{ page.banner }}){: class="page_project-banner"}
 
 ### Legal Notes
 Skullgirls is a trademark of Autumn Games LLC.

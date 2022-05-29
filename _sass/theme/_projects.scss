@@ -1,0 +1,31 @@
+//// Projects List
+.list_projects {
+  display: block;
+  padding-left: 0;
+}
+
+.list_projects-entry {
+  position: relative;
+  display: block;
+}
+.list_projects-header {
+  text-align: center;
+}
+.list_projects-banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+.list_projects-excerpt {
+}
+.list_projects-link {
+}
+
+//// Project Pages
+.page_project-banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
