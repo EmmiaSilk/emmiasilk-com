@@ -23,8 +23,9 @@ email: emmiasilk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Emmia's personal website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  emmiasilk
+url: "https://emmiasilk.com/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  EmmiaSilk
+github_repository:  https://github.com/EmmiaSilk/emmiasilk-com
 
 permalink: pretty
 
