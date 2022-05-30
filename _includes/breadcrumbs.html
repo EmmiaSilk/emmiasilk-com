@@ -1,0 +1,27 @@
+<nav aria-label="breadcrumb">
+  {% assign url_parts = page.url | remove: '/index.html' | split: '/' %}
+  {% assign num_parts = url_parts | size %}
+  <ol class="breadcrumb">
+    {% if num_parts == 0 or num_parts == -1 %}
+      {% include breadcrumb_entry.html url="/" name="Home" current=true  %}
+    {% else %}
+      {% include breadcrumb_entry.html url="/" name="Home"  %}
+    {% endif %}
+    {% for my_crumb in url_parts offset:1 %}
+      {% comment %} Get page's real URL {% endcomment %}
+      {% assign crumb_url = "/" %}
+      {% for part in url_parts offset:1 limit:forloop.index %}
+        {% assign crumb_url = crumb_url | append: part | append: "/" %}
+      {% endfor %}
+      {% comment %} Get page from URL {% endcomment %}
+      {% assign crumb_page = site.pages | where: "url", crumb_url | first %}
+      {% unless crumb_page %}
+        {% assign crumb_page = site.documents | where: "url", crumb_url | first %}
+      {% endunless %}
+      {% comment %} "Current" state {% endcomment %}
+      {% assign current = forloop.last %}
+      {% comment %} Breadcrumbs! Finally! {% endcomment %}
+      {% include breadcrumb_entry.html url=crumb_url name=crumb_page.title current=current %}
+    {% endfor %}
+  </ol>
+</nav>

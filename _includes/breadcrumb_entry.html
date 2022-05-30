@@ -1,0 +1,9 @@
+{% if include.current == true %}
+<li class="breadcrumb-item active" aria-current="page">
+  {{include.name}}
+</li>
+{% else %}
+<li class="breadcrumb-item">
+  <a href="{{include.url}}">{{include.name}}</a>
+</li>
+{% endif %}
