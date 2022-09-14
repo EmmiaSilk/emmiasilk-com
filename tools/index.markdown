@@ -3,6 +3,5 @@ layout: page
 title: Tools
 permalink: /tools/
 ---
-Below is a list of microapps that I have made.
-
-- [Spheres Generator](/tools/spheres-roller)
+- [Spheres Roller](/tools/spheres-roller) - Generate random sphere
+	combinations for a new *Spheres and Spirits* character.
